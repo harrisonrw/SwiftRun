@@ -13,6 +13,7 @@
 		E102A7E4228F6B5C003BA86E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E102A7E3228F6B5C003BA86E /* Assets.xcassets */; };
 		E102A7E7228F6B5C003BA86E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E102A7E5228F6B5C003BA86E /* LaunchScreen.storyboard */; };
 		E102A7F2228F6B5C003BA86E /* SwiftRunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A7F1228F6B5C003BA86E /* SwiftRunTests.swift */; };
+		E102A801228F757A003BA86E /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A800228F757A003BA86E /* Activity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		E102A7ED228F6B5C003BA86E /* SwiftRunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftRunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E102A7F1228F6B5C003BA86E /* SwiftRunTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftRunTests.swift; sourceTree = "<group>"; };
 		E102A7F3228F6B5C003BA86E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E102A800228F757A003BA86E /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 		E102A7FD228F735E003BA86E /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				E102A800228F757A003BA86E /* Activity.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -174,7 +177,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
-				ORGANIZATIONNAME = "RWH Technology, LLC";
+				ORGANIZATIONNAME = "Robert Harrison";
 				TargetAttributes = {
 					E102A7D5228F6B5B003BA86E = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -229,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E102A801228F757A003BA86E /* Activity.swift in Sources */,
 				E102A7DC228F6B5B003BA86E /* ViewController.swift in Sources */,
 				E102A7DA228F6B5B003BA86E /* AppDelegate.swift in Sources */,
 			);
