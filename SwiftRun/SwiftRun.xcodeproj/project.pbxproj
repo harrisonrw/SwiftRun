@@ -10,7 +10,6 @@
 		E102A7DA228F6B5B003BA86E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A7D9228F6B5B003BA86E /* AppDelegate.swift */; };
 		E102A7DC228F6B5B003BA86E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A7DB228F6B5B003BA86E /* ViewController.swift */; };
 		E102A7DF228F6B5B003BA86E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E102A7DD228F6B5B003BA86E /* Main.storyboard */; };
-		E102A7E2228F6B5B003BA86E /* SwiftRun.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E102A7E0228F6B5B003BA86E /* SwiftRun.xcdatamodeld */; };
 		E102A7E4228F6B5C003BA86E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E102A7E3228F6B5C003BA86E /* Assets.xcassets */; };
 		E102A7E7228F6B5C003BA86E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E102A7E5228F6B5C003BA86E /* LaunchScreen.storyboard */; };
 		E102A7F2228F6B5C003BA86E /* SwiftRunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A7F1228F6B5C003BA86E /* SwiftRunTests.swift */; };
@@ -31,7 +30,6 @@
 		E102A7D9228F6B5B003BA86E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E102A7DB228F6B5B003BA86E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E102A7DE228F6B5B003BA86E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E102A7E1228F6B5B003BA86E /* SwiftRun.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftRun.xcdatamodel; sourceTree = "<group>"; };
 		E102A7E3228F6B5C003BA86E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E102A7E6228F6B5C003BA86E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E102A7E8228F6B5C003BA86E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -110,7 +108,6 @@
 		E102A7FD228F735E003BA86E /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				E102A7E0228F6B5B003BA86E /* SwiftRun.xcdatamodeld */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -234,7 +231,6 @@
 			files = (
 				E102A7DC228F6B5B003BA86E /* ViewController.swift in Sources */,
 				E102A7DA228F6B5B003BA86E /* AppDelegate.swift in Sources */,
-				E102A7E2228F6B5B003BA86E /* SwiftRun.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,19 +497,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		E102A7E0228F6B5B003BA86E /* SwiftRun.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				E102A7E1228F6B5B003BA86E /* SwiftRun.xcdatamodel */,
-			);
-			currentVersion = E102A7E1228F6B5B003BA86E /* SwiftRun.xcdatamodel */;
-			path = SwiftRun.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = E102A7CE228F6B5B003BA86E /* Project object */;
 }
