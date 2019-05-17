@@ -79,13 +79,10 @@
 		E102A7D8228F6B5B003BA86E /* SwiftRun */ = {
 			isa = PBXGroup;
 			children = (
-				E102A7D9228F6B5B003BA86E /* AppDelegate.swift */,
-				E102A7DB228F6B5B003BA86E /* ViewController.swift */,
-				E102A7DD228F6B5B003BA86E /* Main.storyboard */,
-				E102A7E3228F6B5C003BA86E /* Assets.xcassets */,
-				E102A7E5228F6B5C003BA86E /* LaunchScreen.storyboard */,
-				E102A7E8228F6B5C003BA86E /* Info.plist */,
-				E102A7E0228F6B5B003BA86E /* SwiftRun.xcdatamodeld */,
+				E102A7FC228F7337003BA86E /* App */,
+				E102A7FD228F735E003BA86E /* Models */,
+				E102A7FF228F73E5003BA86E /* Logic */,
+				E102A7FE228F7393003BA86E /* Modules */,
 			);
 			path = SwiftRun;
 			sourceTree = "<group>";
@@ -97,6 +94,41 @@
 				E102A7F3228F6B5C003BA86E /* Info.plist */,
 			);
 			path = SwiftRunTests;
+			sourceTree = "<group>";
+		};
+		E102A7FC228F7337003BA86E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E102A7D9228F6B5B003BA86E /* AppDelegate.swift */,
+				E102A7E3228F6B5C003BA86E /* Assets.xcassets */,
+				E102A7E5228F6B5C003BA86E /* LaunchScreen.storyboard */,
+				E102A7E8228F6B5C003BA86E /* Info.plist */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		E102A7FD228F735E003BA86E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E102A7E0228F6B5B003BA86E /* SwiftRun.xcdatamodeld */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		E102A7FE228F7393003BA86E /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				E102A7DB228F6B5B003BA86E /* ViewController.swift */,
+				E102A7DD228F6B5B003BA86E /* Main.storyboard */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		E102A7FF228F73E5003BA86E /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Logic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
