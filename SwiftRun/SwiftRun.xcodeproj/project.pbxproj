@@ -21,6 +21,9 @@
 		E102A811228F9DCB003BA86E /* NavigationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A810228F9DCB003BA86E /* NavigationCoordinator.swift */; };
 		E102A814228F9F62003BA86E /* ApplicationNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A813228F9F62003BA86E /* ApplicationNavigationController.swift */; };
 		E102A816228FA182003BA86E /* ApplicationNavigation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E102A815228FA182003BA86E /* ApplicationNavigation.storyboard */; };
+		E102A819228FB57C003BA86E /* StopWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A818228FB57C003BA86E /* StopWatch.swift */; };
+		E102A81B228FB5FC003BA86E /* StopWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A81A228FB5FC003BA86E /* StopWatchTests.swift */; };
+		E102A81E228FB682003BA86E /* XCTestCaseExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A81D228FB682003BA86E /* XCTestCaseExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +55,9 @@
 		E102A810228F9DCB003BA86E /* NavigationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationCoordinator.swift; sourceTree = "<group>"; };
 		E102A813228F9F62003BA86E /* ApplicationNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationNavigationController.swift; sourceTree = "<group>"; };
 		E102A815228FA182003BA86E /* ApplicationNavigation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ApplicationNavigation.storyboard; sourceTree = "<group>"; };
+		E102A818228FB57C003BA86E /* StopWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatch.swift; sourceTree = "<group>"; };
+		E102A81A228FB5FC003BA86E /* StopWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchTests.swift; sourceTree = "<group>"; };
+		E102A81D228FB682003BA86E /* XCTestCaseExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestCaseExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,7 @@
 				E102A7FD228F735E003BA86E /* Models */,
 				E102A7FF228F73E5003BA86E /* Logic */,
 				E102A7FE228F7393003BA86E /* Modules */,
+				E102A81C228FB651003BA86E /* Library */,
 			);
 			path = SwiftRun;
 			sourceTree = "<group>";
@@ -145,6 +152,8 @@
 				E102A808228F8446003BA86E /* LocationManager.swift */,
 				E102A80A228F8489003BA86E /* CLLocationManager+Extension.swift */,
 				E102A80C228F84FD003BA86E /* MockLocationManager.swift */,
+				E102A818228FB57C003BA86E /* StopWatch.swift */,
+				E102A81A228FB5FC003BA86E /* StopWatchTests.swift */,
 			);
 			name = Logic;
 			sourceTree = "<group>";
@@ -166,6 +175,14 @@
 				E102A804228F780C003BA86E /* Activity.storyboard */,
 			);
 			name = Activity;
+			sourceTree = "<group>";
+		};
+		E102A81C228FB651003BA86E /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				E102A81D228FB682003BA86E /* XCTestCaseExtension.swift */,
+			);
+			name = Library;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +294,7 @@
 				E102A80D228F84FD003BA86E /* MockLocationManager.swift in Sources */,
 				E102A80F228F86E4003BA86E /* Environment.swift in Sources */,
 				E102A7DA228F6B5B003BA86E /* AppDelegate.swift in Sources */,
+				E102A819228FB57C003BA86E /* StopWatch.swift in Sources */,
 				E102A803228F77EF003BA86E /* ActivityViewController.swift in Sources */,
 				E102A80B228F8489003BA86E /* CLLocationManager+Extension.swift in Sources */,
 			);
@@ -287,6 +305,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E102A7F2228F6B5C003BA86E /* SwiftRunTests.swift in Sources */,
+				E102A81E228FB682003BA86E /* XCTestCaseExtension.swift in Sources */,
+				E102A81B228FB5FC003BA86E /* StopWatchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
