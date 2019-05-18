@@ -14,6 +14,9 @@
 		E102A801228F757A003BA86E /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A800228F757A003BA86E /* Activity.swift */; };
 		E102A803228F77EF003BA86E /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A802228F77EF003BA86E /* ActivityViewController.swift */; };
 		E102A805228F780C003BA86E /* Activity.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E102A804228F780C003BA86E /* Activity.storyboard */; };
+		E102A809228F8446003BA86E /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A808228F8446003BA86E /* LocationManager.swift */; };
+		E102A80B228F8489003BA86E /* CLLocationManager+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A80A228F8489003BA86E /* CLLocationManager+Extension.swift */; };
+		E102A80D228F84FD003BA86E /* MockLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A80C228F84FD003BA86E /* MockLocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		E102A800228F757A003BA86E /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
 		E102A802228F77EF003BA86E /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
 		E102A804228F780C003BA86E /* Activity.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Activity.storyboard; sourceTree = "<group>"; };
+		E102A808228F8446003BA86E /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		E102A80A228F8489003BA86E /* CLLocationManager+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocationManager+Extension.swift"; sourceTree = "<group>"; };
+		E102A80C228F84FD003BA86E /* MockLocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockLocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +133,9 @@
 		E102A7FF228F73E5003BA86E /* Logic */ = {
 			isa = PBXGroup;
 			children = (
+				E102A808228F8446003BA86E /* LocationManager.swift */,
+				E102A80A228F8489003BA86E /* CLLocationManager+Extension.swift */,
+				E102A80C228F84FD003BA86E /* MockLocationManager.swift */,
 			);
 			name = Logic;
 			sourceTree = "<group>";
@@ -232,9 +241,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E102A809228F8446003BA86E /* LocationManager.swift in Sources */,
 				E102A801228F757A003BA86E /* Activity.swift in Sources */,
+				E102A80D228F84FD003BA86E /* MockLocationManager.swift in Sources */,
 				E102A7DA228F6B5B003BA86E /* AppDelegate.swift in Sources */,
 				E102A803228F77EF003BA86E /* ActivityViewController.swift in Sources */,
+				E102A80B228F8489003BA86E /* CLLocationManager+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
