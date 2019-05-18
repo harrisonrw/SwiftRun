@@ -17,6 +17,7 @@
 		E102A809228F8446003BA86E /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A808228F8446003BA86E /* LocationManager.swift */; };
 		E102A80B228F8489003BA86E /* CLLocationManager+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A80A228F8489003BA86E /* CLLocationManager+Extension.swift */; };
 		E102A80D228F84FD003BA86E /* MockLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A80C228F84FD003BA86E /* MockLocationManager.swift */; };
+		E102A80F228F86E4003BA86E /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A80E228F86E4003BA86E /* Environment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		E102A808228F8446003BA86E /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		E102A80A228F8489003BA86E /* CLLocationManager+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocationManager+Extension.swift"; sourceTree = "<group>"; };
 		E102A80C228F84FD003BA86E /* MockLocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockLocationManager.swift; sourceTree = "<group>"; };
+		E102A80E228F86E4003BA86E /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				E102A7E3228F6B5C003BA86E /* Assets.xcassets */,
 				E102A7E5228F6B5C003BA86E /* LaunchScreen.storyboard */,
 				E102A7E8228F6B5C003BA86E /* Info.plist */,
+				E102A80E228F86E4003BA86E /* Environment.swift */,
 			);
 			name = App;
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 				E102A809228F8446003BA86E /* LocationManager.swift in Sources */,
 				E102A801228F757A003BA86E /* Activity.swift in Sources */,
 				E102A80D228F84FD003BA86E /* MockLocationManager.swift in Sources */,
+				E102A80F228F86E4003BA86E /* Environment.swift in Sources */,
 				E102A7DA228F6B5B003BA86E /* AppDelegate.swift in Sources */,
 				E102A803228F77EF003BA86E /* ActivityViewController.swift in Sources */,
 				E102A80B228F8489003BA86E /* CLLocationManager+Extension.swift in Sources */,
