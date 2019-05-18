@@ -18,6 +18,9 @@
 		E102A80B228F8489003BA86E /* CLLocationManager+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A80A228F8489003BA86E /* CLLocationManager+Extension.swift */; };
 		E102A80D228F84FD003BA86E /* MockLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A80C228F84FD003BA86E /* MockLocationManager.swift */; };
 		E102A80F228F86E4003BA86E /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A80E228F86E4003BA86E /* Environment.swift */; };
+		E102A811228F9DCB003BA86E /* NavigationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A810228F9DCB003BA86E /* NavigationCoordinator.swift */; };
+		E102A814228F9F62003BA86E /* ApplicationNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A813228F9F62003BA86E /* ApplicationNavigationController.swift */; };
+		E102A816228FA182003BA86E /* ApplicationNavigation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E102A815228FA182003BA86E /* ApplicationNavigation.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,9 @@
 		E102A80A228F8489003BA86E /* CLLocationManager+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocationManager+Extension.swift"; sourceTree = "<group>"; };
 		E102A80C228F84FD003BA86E /* MockLocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockLocationManager.swift; sourceTree = "<group>"; };
 		E102A80E228F86E4003BA86E /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		E102A810228F9DCB003BA86E /* NavigationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationCoordinator.swift; sourceTree = "<group>"; };
+		E102A813228F9F62003BA86E /* ApplicationNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationNavigationController.swift; sourceTree = "<group>"; };
+		E102A815228FA182003BA86E /* ApplicationNavigation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ApplicationNavigation.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,8 +133,8 @@
 		E102A7FE228F7393003BA86E /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				E102A802228F77EF003BA86E /* ActivityViewController.swift */,
-				E102A804228F780C003BA86E /* Activity.storyboard */,
+				E102A812228F9E6D003BA86E /* Navigation */,
+				E102A817228FA244003BA86E /* Activity */,
 			);
 			name = Modules;
 			sourceTree = "<group>";
@@ -141,6 +147,25 @@
 				E102A80C228F84FD003BA86E /* MockLocationManager.swift */,
 			);
 			name = Logic;
+			sourceTree = "<group>";
+		};
+		E102A812228F9E6D003BA86E /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				E102A810228F9DCB003BA86E /* NavigationCoordinator.swift */,
+				E102A813228F9F62003BA86E /* ApplicationNavigationController.swift */,
+				E102A815228FA182003BA86E /* ApplicationNavigation.storyboard */,
+			);
+			name = Navigation;
+			sourceTree = "<group>";
+		};
+		E102A817228FA244003BA86E /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				E102A802228F77EF003BA86E /* ActivityViewController.swift */,
+				E102A804228F780C003BA86E /* Activity.storyboard */,
+			);
+			name = Activity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,6 +251,7 @@
 			files = (
 				E102A7E7228F6B5C003BA86E /* LaunchScreen.storyboard in Resources */,
 				E102A7E4228F6B5C003BA86E /* Assets.xcassets in Resources */,
+				E102A816228FA182003BA86E /* ApplicationNavigation.storyboard in Resources */,
 				E102A805228F780C003BA86E /* Activity.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,8 +270,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E102A814228F9F62003BA86E /* ApplicationNavigationController.swift in Sources */,
 				E102A809228F8446003BA86E /* LocationManager.swift in Sources */,
 				E102A801228F757A003BA86E /* Activity.swift in Sources */,
+				E102A811228F9DCB003BA86E /* NavigationCoordinator.swift in Sources */,
 				E102A80D228F84FD003BA86E /* MockLocationManager.swift in Sources */,
 				E102A80F228F86E4003BA86E /* Environment.swift in Sources */,
 				E102A7DA228F6B5B003BA86E /* AppDelegate.swift in Sources */,
