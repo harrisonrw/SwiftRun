@@ -28,6 +28,7 @@
 		E102A82422931E4F003BA86E /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A82322931E4F003BA86E /* Errors.swift */; };
 		E102A82622931F64003BA86E /* ActivityLogicControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A82522931F64003BA86E /* ActivityLogicControllerTests.swift */; };
 		E102A82822931FA1003BA86E /* BaseTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A82722931FA1003BA86E /* BaseTestCase.swift */; };
+		E102A82B2293232E003BA86E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E102A82A2293232E003BA86E /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		E102A82322931E4F003BA86E /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
 		E102A82522931F64003BA86E /* ActivityLogicControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityLogicControllerTests.swift; sourceTree = "<group>"; };
 		E102A82722931FA1003BA86E /* BaseTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTestCase.swift; sourceTree = "<group>"; };
+		E102A82A2293232E003BA86E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E102A82B2293232E003BA86E /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +95,7 @@
 				E102A7D8228F6B5B003BA86E /* SwiftRun */,
 				E102A7F0228F6B5C003BA86E /* SwiftRunTests */,
 				E102A7D7228F6B5B003BA86E /* Products */,
+				E102A8292293232E003BA86E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -197,6 +201,14 @@
 			name = Library;
 			sourceTree = "<group>";
 		};
+		E102A8292293232E003BA86E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E102A82A2293232E003BA86E /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -247,6 +259,11 @@
 				TargetAttributes = {
 					E102A7D5228F6B5B003BA86E = {
 						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					E102A7EC228F6B5C003BA86E = {
 						CreatedOnToolsVersion = 10.2.1;
