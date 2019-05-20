@@ -28,8 +28,12 @@ class NavigationCoordinator {
     }
 
     func presentActivity(animated: Bool) {
+
+        let activityLogicController = ActivityLogicController(environment: environment)
+
         let activityViewController = ActivityViewController.configured(
-            environment: environment
+            environment: environment,
+            activityLogicController: activityLogicController
         )
         navigationController.setViewControllers([activityViewController], animated: animated)
     }

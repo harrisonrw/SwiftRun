@@ -16,13 +16,15 @@ class ActivityViewController: UIViewController {
     @IBOutlet private var stopButton: UIButton!
 
     private var environment: Environment!
+    private var activityLogicController: ActivityLogicController!
 
     // MARK: - Configuration
 
     /**
      Returns an instance loaded from a storyboard and configured.
      */
-    static func configured(environment: Environment) -> ActivityViewController {
+    static func configured(environment: Environment,
+                           activityLogicController: ActivityLogicController) -> ActivityViewController {
         let storyboard = UIStoryboard(name: "Activity", bundle: nil)
 
         let viewController = storyboard.instantiateViewController(
@@ -30,6 +32,7 @@ class ActivityViewController: UIViewController {
         ) as! ActivityViewController
 
         viewController.environment = environment
+        viewController.activityLogicController = activityLogicController
 
         return viewController
     }
