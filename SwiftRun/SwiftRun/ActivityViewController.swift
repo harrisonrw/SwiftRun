@@ -59,6 +59,20 @@ class ActivityViewController: UIViewController, ActivityLogicControllerDelegate 
         viewModel!.reset()
     }
 
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+
+        // Prevent app from going to sleep.
+        UIApplication.shared.isIdleTimerDisabled = true
+    }
+
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+
+        // Allow app to go to sleep.
+        UIApplication.shared.isIdleTimerDisabled = false
+    }
+
     // MARK: - ViewModel Callback
 
     private func refreshView(with state: ActivityViewModel.State) {
