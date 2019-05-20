@@ -10,7 +10,6 @@
 		E102A7DA228F6B5B003BA86E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A7D9228F6B5B003BA86E /* AppDelegate.swift */; };
 		E102A7E4228F6B5C003BA86E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E102A7E3228F6B5C003BA86E /* Assets.xcassets */; };
 		E102A7E7228F6B5C003BA86E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E102A7E5228F6B5C003BA86E /* LaunchScreen.storyboard */; };
-		E102A7F2228F6B5C003BA86E /* SwiftRunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A7F1228F6B5C003BA86E /* SwiftRunTests.swift */; };
 		E102A801228F757A003BA86E /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A800228F757A003BA86E /* Activity.swift */; };
 		E102A803228F77EF003BA86E /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A802228F77EF003BA86E /* ActivityViewController.swift */; };
 		E102A805228F780C003BA86E /* Activity.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E102A804228F780C003BA86E /* Activity.storyboard */; };
@@ -24,6 +23,11 @@
 		E102A819228FB57C003BA86E /* StopWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A818228FB57C003BA86E /* StopWatch.swift */; };
 		E102A81B228FB5FC003BA86E /* StopWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A81A228FB5FC003BA86E /* StopWatchTests.swift */; };
 		E102A81E228FB682003BA86E /* XCTestCaseExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A81D228FB682003BA86E /* XCTestCaseExtension.swift */; };
+		E102A82022931C55003BA86E /* ActivityLogicController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A81F22931C55003BA86E /* ActivityLogicController.swift */; };
+		E102A82222931C9A003BA86E /* ActivityLogicControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A82122931C9A003BA86E /* ActivityLogicControllerDelegate.swift */; };
+		E102A82422931E4F003BA86E /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A82322931E4F003BA86E /* Errors.swift */; };
+		E102A82622931F64003BA86E /* ActivityLogicControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A82522931F64003BA86E /* ActivityLogicControllerTests.swift */; };
+		E102A82822931FA1003BA86E /* BaseTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A82722931FA1003BA86E /* BaseTestCase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +47,6 @@
 		E102A7E6228F6B5C003BA86E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E102A7E8228F6B5C003BA86E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E102A7ED228F6B5C003BA86E /* SwiftRunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftRunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E102A7F1228F6B5C003BA86E /* SwiftRunTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftRunTests.swift; sourceTree = "<group>"; };
 		E102A7F3228F6B5C003BA86E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E102A800228F757A003BA86E /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
 		E102A802228F77EF003BA86E /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +61,11 @@
 		E102A818228FB57C003BA86E /* StopWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatch.swift; sourceTree = "<group>"; };
 		E102A81A228FB5FC003BA86E /* StopWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchTests.swift; sourceTree = "<group>"; };
 		E102A81D228FB682003BA86E /* XCTestCaseExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestCaseExtension.swift; sourceTree = "<group>"; };
+		E102A81F22931C55003BA86E /* ActivityLogicController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityLogicController.swift; sourceTree = "<group>"; };
+		E102A82122931C9A003BA86E /* ActivityLogicControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityLogicControllerDelegate.swift; sourceTree = "<group>"; };
+		E102A82322931E4F003BA86E /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		E102A82522931F64003BA86E /* ActivityLogicControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityLogicControllerTests.swift; sourceTree = "<group>"; };
+		E102A82722931FA1003BA86E /* BaseTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTestCase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +119,6 @@
 		E102A7F0228F6B5C003BA86E /* SwiftRunTests */ = {
 			isa = PBXGroup;
 			children = (
-				E102A7F1228F6B5C003BA86E /* SwiftRunTests.swift */,
 				E102A7F3228F6B5C003BA86E /* Info.plist */,
 			);
 			path = SwiftRunTests;
@@ -125,6 +132,7 @@
 				E102A7E5228F6B5C003BA86E /* LaunchScreen.storyboard */,
 				E102A7E8228F6B5C003BA86E /* Info.plist */,
 				E102A80E228F86E4003BA86E /* Environment.swift */,
+				E102A82322931E4F003BA86E /* Errors.swift */,
 			);
 			name = App;
 			sourceTree = "<group>";
@@ -171,8 +179,11 @@
 		E102A817228FA244003BA86E /* Activity */ = {
 			isa = PBXGroup;
 			children = (
-				E102A802228F77EF003BA86E /* ActivityViewController.swift */,
 				E102A804228F780C003BA86E /* Activity.storyboard */,
+				E102A802228F77EF003BA86E /* ActivityViewController.swift */,
+				E102A81F22931C55003BA86E /* ActivityLogicController.swift */,
+				E102A82122931C9A003BA86E /* ActivityLogicControllerDelegate.swift */,
+				E102A82522931F64003BA86E /* ActivityLogicControllerTests.swift */,
 			);
 			name = Activity;
 			sourceTree = "<group>";
@@ -181,6 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				E102A81D228FB682003BA86E /* XCTestCaseExtension.swift */,
+				E102A82722931FA1003BA86E /* BaseTestCase.swift */,
 			);
 			name = Library;
 			sourceTree = "<group>";
@@ -289,13 +301,16 @@
 			files = (
 				E102A814228F9F62003BA86E /* ApplicationNavigationController.swift in Sources */,
 				E102A809228F8446003BA86E /* LocationManager.swift in Sources */,
+				E102A82222931C9A003BA86E /* ActivityLogicControllerDelegate.swift in Sources */,
 				E102A801228F757A003BA86E /* Activity.swift in Sources */,
 				E102A811228F9DCB003BA86E /* NavigationCoordinator.swift in Sources */,
 				E102A80D228F84FD003BA86E /* MockLocationManager.swift in Sources */,
 				E102A80F228F86E4003BA86E /* Environment.swift in Sources */,
+				E102A82422931E4F003BA86E /* Errors.swift in Sources */,
 				E102A7DA228F6B5B003BA86E /* AppDelegate.swift in Sources */,
 				E102A819228FB57C003BA86E /* StopWatch.swift in Sources */,
 				E102A803228F77EF003BA86E /* ActivityViewController.swift in Sources */,
+				E102A82022931C55003BA86E /* ActivityLogicController.swift in Sources */,
 				E102A80B228F8489003BA86E /* CLLocationManager+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,9 +319,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E102A7F2228F6B5C003BA86E /* SwiftRunTests.swift in Sources */,
 				E102A81E228FB682003BA86E /* XCTestCaseExtension.swift in Sources */,
+				E102A82822931FA1003BA86E /* BaseTestCase.swift in Sources */,
 				E102A81B228FB5FC003BA86E /* StopWatchTests.swift in Sources */,
+				E102A82622931F64003BA86E /* ActivityLogicControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
