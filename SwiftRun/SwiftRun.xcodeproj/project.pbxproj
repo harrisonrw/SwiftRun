@@ -29,6 +29,10 @@
 		E102A82622931F64003BA86E /* ActivityLogicControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A82522931F64003BA86E /* ActivityLogicControllerTests.swift */; };
 		E102A82822931FA1003BA86E /* BaseTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A82722931FA1003BA86E /* BaseTestCase.swift */; };
 		E102A82B2293232E003BA86E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E102A82A2293232E003BA86E /* CoreLocation.framework */; };
+		E102A82D2293255F003BA86E /* ActivityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A82C2293255F003BA86E /* ActivityViewModel.swift */; };
+		E102A82F229328E8003BA86E /* Double+DistanceString.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A82E229328E8003BA86E /* Double+DistanceString.swift */; };
+		E102A83122932A35003BA86E /* DoubleDistanceStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A83022932A35003BA86E /* DoubleDistanceStringTests.swift */; };
+		E102A83322932AE0003BA86E /* ActivityViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A83222932AE0003BA86E /* ActivityViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +72,10 @@
 		E102A82522931F64003BA86E /* ActivityLogicControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityLogicControllerTests.swift; sourceTree = "<group>"; };
 		E102A82722931FA1003BA86E /* BaseTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTestCase.swift; sourceTree = "<group>"; };
 		E102A82A2293232E003BA86E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E102A82C2293255F003BA86E /* ActivityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewModel.swift; sourceTree = "<group>"; };
+		E102A82E229328E8003BA86E /* Double+DistanceString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+DistanceString.swift"; sourceTree = "<group>"; };
+		E102A83022932A35003BA86E /* DoubleDistanceStringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleDistanceStringTests.swift; sourceTree = "<group>"; };
+		E102A83222932AE0003BA86E /* ActivityViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,8 +194,10 @@
 				E102A804228F780C003BA86E /* Activity.storyboard */,
 				E102A802228F77EF003BA86E /* ActivityViewController.swift */,
 				E102A81F22931C55003BA86E /* ActivityLogicController.swift */,
-				E102A82122931C9A003BA86E /* ActivityLogicControllerDelegate.swift */,
 				E102A82522931F64003BA86E /* ActivityLogicControllerTests.swift */,
+				E102A82122931C9A003BA86E /* ActivityLogicControllerDelegate.swift */,
+				E102A82C2293255F003BA86E /* ActivityViewModel.swift */,
+				E102A83222932AE0003BA86E /* ActivityViewModelTests.swift */,
 			);
 			name = Activity;
 			sourceTree = "<group>";
@@ -197,6 +207,8 @@
 			children = (
 				E102A81D228FB682003BA86E /* XCTestCaseExtension.swift */,
 				E102A82722931FA1003BA86E /* BaseTestCase.swift */,
+				E102A82E229328E8003BA86E /* Double+DistanceString.swift */,
+				E102A83022932A35003BA86E /* DoubleDistanceStringTests.swift */,
 			);
 			name = Library;
 			sourceTree = "<group>";
@@ -325,7 +337,9 @@
 				E102A80F228F86E4003BA86E /* Environment.swift in Sources */,
 				E102A82422931E4F003BA86E /* Errors.swift in Sources */,
 				E102A7DA228F6B5B003BA86E /* AppDelegate.swift in Sources */,
+				E102A82D2293255F003BA86E /* ActivityViewModel.swift in Sources */,
 				E102A819228FB57C003BA86E /* StopWatch.swift in Sources */,
+				E102A82F229328E8003BA86E /* Double+DistanceString.swift in Sources */,
 				E102A803228F77EF003BA86E /* ActivityViewController.swift in Sources */,
 				E102A82022931C55003BA86E /* ActivityLogicController.swift in Sources */,
 				E102A80B228F8489003BA86E /* CLLocationManager+Extension.swift in Sources */,
@@ -336,6 +350,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E102A83122932A35003BA86E /* DoubleDistanceStringTests.swift in Sources */,
+				E102A83322932AE0003BA86E /* ActivityViewModelTests.swift in Sources */,
 				E102A81E228FB682003BA86E /* XCTestCaseExtension.swift in Sources */,
 				E102A82822931FA1003BA86E /* BaseTestCase.swift in Sources */,
 				E102A81B228FB5FC003BA86E /* StopWatchTests.swift in Sources */,

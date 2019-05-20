@@ -10,7 +10,6 @@ import Foundation
 
 enum ActivityState: String {
     case active
-    case paused
     case complete
 }
 
