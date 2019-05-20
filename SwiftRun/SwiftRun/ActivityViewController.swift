@@ -82,8 +82,15 @@ class ActivityViewController: UIViewController, ActivityLogicControllerDelegate 
         durationLabel.text = state.duration
         distanceLabel.text = state.distance
 
-        startButton.isHidden = !state.actions.startEnabled
-        stopButton.isHidden = !state.actions.stopEnabled
+        startButton.backgroundColor = state.actions.startEnabled ?
+            UIColor(red: 0.0/255.0, green: 183.0/255.0, blue: 0.0/255.0, alpha: 1.0) : .darkGray
+
+        startButton.isEnabled = state.actions.startEnabled
+
+        stopButton.backgroundColor = state.actions.stopEnabled ?
+            UIColor(red: 192.0/255.0, green: 21.0/255.0, blue: 21.0/255.0, alpha: 1.0) : .darkGray
+
+        stopButton.isEnabled = state.actions.stopEnabled
     }
 
     // MARK: - Actions
