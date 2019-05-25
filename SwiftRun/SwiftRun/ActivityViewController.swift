@@ -49,6 +49,9 @@ class ActivityViewController: UIViewController, ActivityLogicControllerDelegate 
         durationLabel.configureStyle()
         distanceLabel.configureStyle()
 
+        startButton.configureStyle()
+        stopButton.configureStyle()
+
         activityLogicController.delegate = self
 
         viewModel = ActivityViewModel { [weak self] state in

@@ -34,6 +34,7 @@
 		E102A83122932A35003BA86E /* DoubleDistanceStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A83022932A35003BA86E /* DoubleDistanceStringTests.swift */; };
 		E102A83322932AE0003BA86E /* ActivityViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A83222932AE0003BA86E /* ActivityViewModelTests.swift */; };
 		E198252E2298C902000395AA /* UILabel+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = E198252D2298C902000395AA /* UILabel+Style.swift */; };
+		E19825302298CA83000395AA /* UIButton+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = E198252F2298CA83000395AA /* UIButton+Style.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,7 @@
 		E102A83022932A35003BA86E /* DoubleDistanceStringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleDistanceStringTests.swift; sourceTree = "<group>"; };
 		E102A83222932AE0003BA86E /* ActivityViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewModelTests.swift; sourceTree = "<group>"; };
 		E198252D2298C902000395AA /* UILabel+Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Style.swift"; sourceTree = "<group>"; };
+		E198252F2298CA83000395AA /* UIButton+Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Style.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -228,6 +230,7 @@
 			isa = PBXGroup;
 			children = (
 				E198252D2298C902000395AA /* UILabel+Style.swift */,
+				E198252F2298CA83000395AA /* UIButton+Style.swift */,
 			);
 			name = Style;
 			sourceTree = "<group>";
@@ -351,6 +354,7 @@
 				E102A7DA228F6B5B003BA86E /* AppDelegate.swift in Sources */,
 				E102A82D2293255F003BA86E /* ActivityViewModel.swift in Sources */,
 				E102A819228FB57C003BA86E /* StopWatch.swift in Sources */,
+				E19825302298CA83000395AA /* UIButton+Style.swift in Sources */,
 				E102A82F229328E8003BA86E /* Double+DistanceString.swift in Sources */,
 				E102A803228F77EF003BA86E /* ActivityViewController.swift in Sources */,
 				E102A82022931C55003BA86E /* ActivityLogicController.swift in Sources */,
