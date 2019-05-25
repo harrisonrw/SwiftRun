@@ -33,6 +33,7 @@
 		E102A82F229328E8003BA86E /* Double+DistanceString.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A82E229328E8003BA86E /* Double+DistanceString.swift */; };
 		E102A83122932A35003BA86E /* DoubleDistanceStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A83022932A35003BA86E /* DoubleDistanceStringTests.swift */; };
 		E102A83322932AE0003BA86E /* ActivityViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A83222932AE0003BA86E /* ActivityViewModelTests.swift */; };
+		E198252E2298C902000395AA /* UILabel+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = E198252D2298C902000395AA /* UILabel+Style.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,7 @@
 		E102A82E229328E8003BA86E /* Double+DistanceString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+DistanceString.swift"; sourceTree = "<group>"; };
 		E102A83022932A35003BA86E /* DoubleDistanceStringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleDistanceStringTests.swift; sourceTree = "<group>"; };
 		E102A83222932AE0003BA86E /* ActivityViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewModelTests.swift; sourceTree = "<group>"; };
+		E198252D2298C902000395AA /* UILabel+Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Style.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 				E102A7FD228F735E003BA86E /* Models */,
 				E102A7FF228F73E5003BA86E /* Logic */,
 				E102A7FE228F7393003BA86E /* Modules */,
+				E198252C2298C8E7000395AA /* Style */,
 				E102A81C228FB651003BA86E /* Library */,
 			);
 			path = SwiftRun;
@@ -219,6 +222,14 @@
 				E102A82A2293232E003BA86E /* CoreLocation.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E198252C2298C8E7000395AA /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				E198252D2298C902000395AA /* UILabel+Style.swift */,
+			);
+			name = Style;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -336,6 +347,7 @@
 				E102A80D228F84FD003BA86E /* MockLocationManager.swift in Sources */,
 				E102A80F228F86E4003BA86E /* Environment.swift in Sources */,
 				E102A82422931E4F003BA86E /* Errors.swift in Sources */,
+				E198252E2298C902000395AA /* UILabel+Style.swift in Sources */,
 				E102A7DA228F6B5B003BA86E /* AppDelegate.swift in Sources */,
 				E102A82D2293255F003BA86E /* ActivityViewModel.swift in Sources */,
 				E102A819228FB57C003BA86E /* StopWatch.swift in Sources */,

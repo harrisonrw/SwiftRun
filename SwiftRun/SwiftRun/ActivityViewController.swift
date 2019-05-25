@@ -46,9 +46,8 @@ class ActivityViewController: UIViewController, ActivityLogicControllerDelegate 
         super.viewDidLoad()
         self.title = "SwiftRun"
 
-        // Monospaced Font so the digits don't move position on each iteration of the timer.
-        durationLabel.font = UIFont.monospacedDigitSystemFont(ofSize: 58.0, weight: .semibold)
-        distanceLabel.font = UIFont.monospacedDigitSystemFont(ofSize: 58.0, weight: .semibold)
+        durationLabel.configureStyle()
+        distanceLabel.configureStyle()
 
         activityLogicController.delegate = self
 
