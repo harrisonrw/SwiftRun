@@ -6,7 +6,7 @@
 //  Copyright © 2019 Robert Harrison. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 class ActivityViewModel {
 
@@ -28,6 +28,24 @@ class ActivityViewModel {
         var duration: String
         var distance: String
         var actions: Actions
+
+        var startBackgroundColor: UIColor {
+            return actions.startEnabled ?
+                UIColor(red: 0.0/255.0, green: 183.0/255.0, blue: 0.0/255.0, alpha: 1.0) : .darkGray
+        }
+
+        var startTitleColor: UIColor {
+            return actions.startEnabled ? .white : .lightGray
+        }
+
+        var stopBackgroundColor: UIColor {
+            return actions.stopEnabled ?
+                UIColor(red: 192.0/255.0, green: 21.0/255.0, blue: 21.0/255.0, alpha: 1.0) : .darkGray
+        }
+
+        var stopTitleColor: UIColor {
+            return actions.stopEnabled ? .white : .lightGray
+        }
     }
 
     private static let initialState = State(

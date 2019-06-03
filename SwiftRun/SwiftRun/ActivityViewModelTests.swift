@@ -20,6 +20,10 @@ final class ActivityViewModelTests: XCTestCase {
             XCTAssertEqual(state.duration, "0:00:00")
             XCTAssertTrue(state.actions.startEnabled)
             XCTAssertFalse(state.actions.stopEnabled)
+            XCTAssertTrue(state.startBackgroundColor.isEqual(UIColor(red: 0.0/255.0, green: 183.0/255.0, blue: 0.0/255.0, alpha: 1.0)))
+            XCTAssertTrue(state.startTitleColor.isEqual(UIColor.white))
+            XCTAssertTrue(state.stopBackgroundColor.isEqual(UIColor.darkGray))
+            XCTAssertTrue(state.stopTitleColor.isEqual(UIColor.lightGray))
 
             callbackExpectation.fulfill()
         }
@@ -40,6 +44,10 @@ final class ActivityViewModelTests: XCTestCase {
                 XCTAssertEqual(state.duration, "0:30:00")
                 XCTAssertFalse(state.actions.startEnabled)
                 XCTAssertTrue(state.actions.stopEnabled)
+                XCTAssertTrue(state.startBackgroundColor.isEqual(UIColor.darkGray))
+                XCTAssertTrue(state.startTitleColor.isEqual(UIColor.lightGray))
+                XCTAssertTrue(state.stopBackgroundColor.isEqual(UIColor(red: 192.0/255.0, green: 21.0/255.0, blue: 21.0/255.0, alpha: 1.0)))
+                XCTAssertTrue(state.stopTitleColor.isEqual(UIColor.white))
 
                 callbackExpectation.fulfill()
 
@@ -69,6 +77,10 @@ final class ActivityViewModelTests: XCTestCase {
                 XCTAssertEqual(state.duration, "0:30:00")
                 XCTAssertTrue(state.actions.startEnabled)
                 XCTAssertFalse(state.actions.stopEnabled)
+                XCTAssertTrue(state.startBackgroundColor.isEqual(UIColor(red: 0.0/255.0, green: 183.0/255.0, blue: 0.0/255.0, alpha: 1.0)))
+                XCTAssertTrue(state.startTitleColor.isEqual(UIColor.white))
+                XCTAssertTrue(state.stopBackgroundColor.isEqual(UIColor.darkGray))
+                XCTAssertTrue(state.stopTitleColor.isEqual(UIColor.lightGray))
 
                 callbackExpectation.fulfill()
             }
