@@ -38,4 +38,20 @@ class NavigationCoordinator {
         navigationController.setViewControllers([activityViewController], animated: animated)
     }
 
+    func presentInfo(animated: Bool) {
+
+        let infoViewController = InfoViewController.configured()
+
+        let navController = ApplicationNavigationController(
+            rootViewController: infoViewController
+        )
+
+        navigationController.visibleViewController?.present(
+            navController,
+            animated: animated,
+            completion: nil
+        )
+
+    }
+
 }

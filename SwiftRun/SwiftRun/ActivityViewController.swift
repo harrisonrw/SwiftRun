@@ -21,6 +21,13 @@ class ActivityViewController: UIViewController, ActivityLogicControllerDelegate 
 
     private var viewModel: ActivityViewModel?
 
+    private lazy var infoBarButtonItem: UIBarButtonItem = {
+        let button = UIButton(type: UIButton.ButtonType.infoLight)
+        button.addTarget(self, action: #selector(presentInfo(_:)), for: .touchUpInside)
+        button.tintColor = .white
+        return UIBarButtonItem(customView: button)
+    }()
+
     // MARK: - Configuration
 
     /**
@@ -45,6 +52,8 @@ class ActivityViewController: UIViewController, ActivityLogicControllerDelegate 
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "SwiftRun"
+
+        self.navigationItem.rightBarButtonItem = infoBarButtonItem
 
         durationLabel.configureStyle()
         distanceLabel.configureStyle()
@@ -94,6 +103,10 @@ class ActivityViewController: UIViewController, ActivityLogicControllerDelegate 
     }
 
     // MARK: - Actions
+
+    @IBAction func presentInfo(_ sender: AnyObject?) {
+        NavigationCoordinator.shared.presentInfo(animated: true)
+    }
 
     @IBAction func start() {
 

@@ -35,6 +35,8 @@
 		E102A83322932AE0003BA86E /* ActivityViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A83222932AE0003BA86E /* ActivityViewModelTests.swift */; };
 		E198252E2298C902000395AA /* UILabel+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = E198252D2298C902000395AA /* UILabel+Style.swift */; };
 		E19825302298CA83000395AA /* UIButton+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = E198252F2298CA83000395AA /* UIButton+Style.swift */; };
+		E1E5F45822A5832300429E4B /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E5F45722A5832300429E4B /* InfoViewController.swift */; };
+		E1E5F45A22A583D300429E4B /* Info.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1E5F45922A583D300429E4B /* Info.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +82,8 @@
 		E102A83222932AE0003BA86E /* ActivityViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewModelTests.swift; sourceTree = "<group>"; };
 		E198252D2298C902000395AA /* UILabel+Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Style.swift"; sourceTree = "<group>"; };
 		E198252F2298CA83000395AA /* UIButton+Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Style.swift"; sourceTree = "<group>"; };
+		E1E5F45722A5832300429E4B /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		E1E5F45922A583D300429E4B /* Info.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Info.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +171,7 @@
 			children = (
 				E102A812228F9E6D003BA86E /* Navigation */,
 				E102A817228FA244003BA86E /* Activity */,
+				E1E5F45622A582F300429E4B /* Info */,
 			);
 			name = Modules;
 			sourceTree = "<group>";
@@ -233,6 +238,15 @@
 				E198252F2298CA83000395AA /* UIButton+Style.swift */,
 			);
 			name = Style;
+			sourceTree = "<group>";
+		};
+		E1E5F45622A582F300429E4B /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				E1E5F45922A583D300429E4B /* Info.storyboard */,
+				E1E5F45722A5832300429E4B /* InfoViewController.swift */,
+			);
+			name = Info;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -324,6 +338,7 @@
 				E102A7E7228F6B5C003BA86E /* LaunchScreen.storyboard in Resources */,
 				E102A7E4228F6B5C003BA86E /* Assets.xcassets in Resources */,
 				E102A816228FA182003BA86E /* ApplicationNavigation.storyboard in Resources */,
+				E1E5F45A22A583D300429E4B /* Info.storyboard in Resources */,
 				E102A805228F780C003BA86E /* Activity.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,6 +361,7 @@
 				E102A809228F8446003BA86E /* LocationManager.swift in Sources */,
 				E102A82222931C9A003BA86E /* ActivityLogicControllerDelegate.swift in Sources */,
 				E102A801228F757A003BA86E /* Activity.swift in Sources */,
+				E1E5F45822A5832300429E4B /* InfoViewController.swift in Sources */,
 				E102A811228F9DCB003BA86E /* NavigationCoordinator.swift in Sources */,
 				E102A80D228F84FD003BA86E /* MockLocationManager.swift in Sources */,
 				E102A80F228F86E4003BA86E /* Environment.swift in Sources */,
