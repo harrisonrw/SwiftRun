@@ -8,7 +8,7 @@
 
 import UIKit
 
-class InfoViewController: UIViewController {
+class InfoViewController: UIViewController, UITableViewDelegate {
 
     @IBOutlet private var tableView: UITableView!
 
@@ -43,6 +43,7 @@ class InfoViewController: UIViewController {
         )
 
         tableView.dataSource = dataSource
+        tableView.delegate = self
         tableView.tableFooterView = UIView()
     }
 
@@ -52,5 +53,28 @@ class InfoViewController: UIViewController {
         self.dismiss(animated: true, completion: nil)
     }
 
+    // MARK: - UITableViewDelegate
+
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+
+        tableView.deselectRow(at: indexPath, animated: true)
+
+        let item = dataSource.sections[indexPath.section].items[indexPath.row]
+
+        switch item.type {
+        case .gitHub:
+            break
+
+        case .credits:
+            break
+
+        case .license:
+            NavigationCoordinator.shared.presentLicense(animated: true)
+
+        case .version:
+            break
+        }
+
+    }
 
 }

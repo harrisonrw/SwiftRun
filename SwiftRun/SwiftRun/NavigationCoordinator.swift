@@ -53,4 +53,15 @@ class NavigationCoordinator {
 
     }
 
+    func presentLicense(animated: Bool) {
+
+        let licenseViewController = LicenseViewController.configured()
+
+        navigationController.visibleViewController?.navigationController?.pushViewController(
+            licenseViewController,
+            animated: animated
+        )
+
+    }
+
 }

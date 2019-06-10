@@ -33,6 +33,8 @@
 		E102A82F229328E8003BA86E /* Double+DistanceString.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A82E229328E8003BA86E /* Double+DistanceString.swift */; };
 		E102A83122932A35003BA86E /* DoubleDistanceStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A83022932A35003BA86E /* DoubleDistanceStringTests.swift */; };
 		E102A83322932AE0003BA86E /* ActivityViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A83222932AE0003BA86E /* ActivityViewModelTests.swift */; };
+		E113E09622AF077B005CFA50 /* LicenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E113E09522AF077B005CFA50 /* LicenseViewController.swift */; };
+		E113E09922AF079C005CFA50 /* License.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E113E09822AF079C005CFA50 /* License.storyboard */; };
 		E1256E0A22A5ECE60059C306 /* InfoDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1256E0922A5ECE60059C306 /* InfoDataSource.swift */; };
 		E198252E2298C902000395AA /* UILabel+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = E198252D2298C902000395AA /* UILabel+Style.swift */; };
 		E19825302298CA83000395AA /* UIButton+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = E198252F2298CA83000395AA /* UIButton+Style.swift */; };
@@ -81,6 +83,8 @@
 		E102A82E229328E8003BA86E /* Double+DistanceString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+DistanceString.swift"; sourceTree = "<group>"; };
 		E102A83022932A35003BA86E /* DoubleDistanceStringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleDistanceStringTests.swift; sourceTree = "<group>"; };
 		E102A83222932AE0003BA86E /* ActivityViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewModelTests.swift; sourceTree = "<group>"; };
+		E113E09522AF077B005CFA50 /* LicenseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseViewController.swift; sourceTree = "<group>"; };
+		E113E09822AF079C005CFA50 /* License.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = License.storyboard; sourceTree = "<group>"; };
 		E1256E0922A5ECE60059C306 /* InfoDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoDataSource.swift; sourceTree = "<group>"; };
 		E198252D2298C902000395AA /* UILabel+Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Style.swift"; sourceTree = "<group>"; };
 		E198252F2298CA83000395AA /* UIButton+Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Style.swift"; sourceTree = "<group>"; };
@@ -233,6 +237,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E113E09722AF078D005CFA50 /* License */ = {
+			isa = PBXGroup;
+			children = (
+				E113E09822AF079C005CFA50 /* License.storyboard */,
+				E113E09522AF077B005CFA50 /* LicenseViewController.swift */,
+			);
+			name = License;
+			sourceTree = "<group>";
+		};
 		E198252C2298C8E7000395AA /* Style */ = {
 			isa = PBXGroup;
 			children = (
@@ -245,6 +258,7 @@
 		E1E5F45622A582F300429E4B /* Info */ = {
 			isa = PBXGroup;
 			children = (
+				E113E09722AF078D005CFA50 /* License */,
 				E1E5F45922A583D300429E4B /* Info.storyboard */,
 				E1E5F45722A5832300429E4B /* InfoViewController.swift */,
 				E1256E0922A5ECE60059C306 /* InfoDataSource.swift */,
@@ -340,6 +354,7 @@
 			files = (
 				E102A7E7228F6B5C003BA86E /* LaunchScreen.storyboard in Resources */,
 				E102A7E4228F6B5C003BA86E /* Assets.xcassets in Resources */,
+				E113E09922AF079C005CFA50 /* License.storyboard in Resources */,
 				E102A816228FA182003BA86E /* ApplicationNavigation.storyboard in Resources */,
 				E1E5F45A22A583D300429E4B /* Info.storyboard in Resources */,
 				E102A805228F780C003BA86E /* Activity.storyboard in Resources */,
@@ -376,6 +391,7 @@
 				E102A819228FB57C003BA86E /* StopWatch.swift in Sources */,
 				E19825302298CA83000395AA /* UIButton+Style.swift in Sources */,
 				E102A82F229328E8003BA86E /* Double+DistanceString.swift in Sources */,
+				E113E09622AF077B005CFA50 /* LicenseViewController.swift in Sources */,
 				E102A803228F77EF003BA86E /* ActivityViewController.swift in Sources */,
 				E102A82022931C55003BA86E /* ActivityLogicController.swift in Sources */,
 				E102A80B228F8489003BA86E /* CLLocationManager+Extension.swift in Sources */,
