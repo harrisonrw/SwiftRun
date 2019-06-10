@@ -53,6 +53,15 @@ class NavigationCoordinator {
 
     }
 
+    func presentGitHub() {
+        guard let url = URL(string: "https://github.com/harrisonrw/SwiftRun"),
+            UIApplication.shared.canOpenURL(url) else {
+            return
+        }
+
+        UIApplication.shared.open(url, options: [:], completionHandler: nil)
+    }
+
     func presentLicense(animated: Bool) {
 
         let licenseViewController = LicenseViewController.configured()

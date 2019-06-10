@@ -63,7 +63,7 @@ class InfoViewController: UIViewController, UITableViewDelegate {
 
         switch item.type {
         case .gitHub:
-            break
+            NavigationCoordinator.shared.presentGitHub()
 
         case .credits:
             break
