@@ -33,6 +33,7 @@
 		E102A82F229328E8003BA86E /* Double+DistanceString.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A82E229328E8003BA86E /* Double+DistanceString.swift */; };
 		E102A83122932A35003BA86E /* DoubleDistanceStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A83022932A35003BA86E /* DoubleDistanceStringTests.swift */; };
 		E102A83322932AE0003BA86E /* ActivityViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A83222932AE0003BA86E /* ActivityViewModelTests.swift */; };
+		E1256E0A22A5ECE60059C306 /* InfoDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1256E0922A5ECE60059C306 /* InfoDataSource.swift */; };
 		E198252E2298C902000395AA /* UILabel+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = E198252D2298C902000395AA /* UILabel+Style.swift */; };
 		E19825302298CA83000395AA /* UIButton+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = E198252F2298CA83000395AA /* UIButton+Style.swift */; };
 		E1E5F45822A5832300429E4B /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E5F45722A5832300429E4B /* InfoViewController.swift */; };
@@ -80,6 +81,7 @@
 		E102A82E229328E8003BA86E /* Double+DistanceString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+DistanceString.swift"; sourceTree = "<group>"; };
 		E102A83022932A35003BA86E /* DoubleDistanceStringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleDistanceStringTests.swift; sourceTree = "<group>"; };
 		E102A83222932AE0003BA86E /* ActivityViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewModelTests.swift; sourceTree = "<group>"; };
+		E1256E0922A5ECE60059C306 /* InfoDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoDataSource.swift; sourceTree = "<group>"; };
 		E198252D2298C902000395AA /* UILabel+Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Style.swift"; sourceTree = "<group>"; };
 		E198252F2298CA83000395AA /* UIButton+Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Style.swift"; sourceTree = "<group>"; };
 		E1E5F45722A5832300429E4B /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
@@ -245,6 +247,7 @@
 			children = (
 				E1E5F45922A583D300429E4B /* Info.storyboard */,
 				E1E5F45722A5832300429E4B /* InfoViewController.swift */,
+				E1256E0922A5ECE60059C306 /* InfoDataSource.swift */,
 			);
 			name = Info;
 			sourceTree = "<group>";
@@ -359,6 +362,7 @@
 			files = (
 				E102A814228F9F62003BA86E /* ApplicationNavigationController.swift in Sources */,
 				E102A809228F8446003BA86E /* LocationManager.swift in Sources */,
+				E1256E0A22A5ECE60059C306 /* InfoDataSource.swift in Sources */,
 				E102A82222931C9A003BA86E /* ActivityLogicControllerDelegate.swift in Sources */,
 				E102A801228F757A003BA86E /* Activity.swift in Sources */,
 				E1E5F45822A5832300429E4B /* InfoViewController.swift in Sources */,

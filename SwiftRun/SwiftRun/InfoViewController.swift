@@ -10,6 +10,10 @@ import UIKit
 
 class InfoViewController: UIViewController {
 
+    @IBOutlet private var tableView: UITableView!
+
+    private var dataSource = InfoDataSource()
+
     // MARK: - Configuration
 
     /**
@@ -31,6 +35,21 @@ class InfoViewController: UIViewController {
         super.viewDidLoad()
         self.title = "Information"
 
+        self.navigationItem.leftBarButtonItem = UIBarButtonItem(
+            title: "Close",
+            style: .plain,
+            target: self,
+            action: #selector(dismissInfo(_:))
+        )
+
+        tableView.dataSource = dataSource
+        tableView.tableFooterView = UIView()
+    }
+
+    // MARK: - Actions
+
+    @IBAction func dismissInfo(_ sender: AnyObject?) {
+        self.dismiss(animated: true, completion: nil)
     }
 
 

@@ -42,9 +42,8 @@ class NavigationCoordinator {
 
         let infoViewController = InfoViewController.configured()
 
-        let navController = ApplicationNavigationController(
-            rootViewController: infoViewController
-        )
+        let navController = ApplicationNavigationController.configured()
+        navController.setViewControllers([infoViewController], animated: animated)
 
         navigationController.visibleViewController?.present(
             navController,
