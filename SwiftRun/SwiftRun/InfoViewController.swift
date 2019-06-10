@@ -65,9 +65,6 @@ class InfoViewController: UIViewController, UITableViewDelegate {
         case .gitHub:
             NavigationCoordinator.shared.presentGitHub()
 
-        case .credits:
-            break
-
         case .license:
             NavigationCoordinator.shared.presentLicense(animated: true)
 

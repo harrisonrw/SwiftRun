@@ -17,7 +17,6 @@ class InfoDataSource: NSObject, UITableViewDataSource {
 
     enum ItemType: Int {
         case gitHub
-        case credits
         case license
         case version
     }
@@ -37,7 +36,6 @@ class InfoDataSource: NSObject, UITableViewDataSource {
             type: .general,
             items: [
                 Item(type: .gitHub, cellIdentifier: "InfoCell"),
-                Item(type: .credits, cellIdentifier: "InfoCell"),
                 Item(type: .license, cellIdentifier: "InfoCell")
             ]
         ),
@@ -67,9 +65,6 @@ class InfoDataSource: NSObject, UITableViewDataSource {
         switch item.type {
         case .gitHub:
             cell.textLabel?.text = "GitHub"
-
-        case .credits:
-            cell.textLabel?.text = "Credits"
 
         case .license:
             cell.textLabel?.text = "License"
